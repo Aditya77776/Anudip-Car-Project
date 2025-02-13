@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: black;
+    padding: 80px 20px;
+    font-size: 24px;
+}
+
+.car-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.car {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#contact {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    padding: 10px;
+}
